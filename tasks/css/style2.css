@@ -1,0 +1,63 @@
+:root {
+  --current-color: #1976d2;
+  --accent-color: #ff4081;
+}
+body {
+  font-family: 'PT Sans', 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.page-links {
+  list-style: none;
+}
+
+/*LINKS*/
+
+.twitter {
+  text-decoration: none;
+  color: var(--current-color);
+}
+.instagram {
+  text-decoration: none;
+  color: var(--current-color);
+}
+.facebook {
+  text-decoration: none;
+  color: var(--current-color);
+}
+.linkedin {
+  text-decoration: none;
+  color: var(--current-color);
+}
+.reddit {
+  text-decoration: none;
+  color: var(--current-color);
+}
+
+/*HOVER AND FOCUS FOR LINKS*/
+.twitter:hover,
+.twitter:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.instagram:hover,
+.instagram:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.facebook:hover,
+.facebook:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.linkedin:hover,
+.linkedin:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.reddit:hover,
+.reddit:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
